@@ -44,7 +44,7 @@ st.markdown("""
     0% { background-position: 0% }
     100% { background-position: 200% }
 }
-.ace-subtitle { color: #4a6080; font-size: 0.75rem; letter-spacing: 0.4em; text-transform: uppercase; margin-top: 0.3rem; }
+.ace-subtitle { color: #8ab0d0; font-size: 0.75rem; letter-spacing: 0.4em; text-transform: uppercase; margin-top: 0.3rem; }
 .ace-tagline  { color: #2a4060; font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; margin-top: 0.2rem; }
 
 .section-header {
@@ -122,7 +122,7 @@ st.markdown("""
 <div class="ace-header">
     <div class="ace-logo">♠ ACE</div>
     <div class="ace-subtitle">Accumulation Computation Engine</div>
-    <div class="ace-tagline">TSX · Toronto Stock Exchange · Consolidation Breakout · Elephant Bar Detection 🐘</div>
+
 </div>
 """, unsafe_allow_html=True)
 
@@ -343,9 +343,6 @@ else:
     st.markdown("""
     <div class="no-results">
         CLICK RUN TSX SCAN TO START<br><br>
-        Scans 640+ TSX listed stocks<br>
-        Finds Narrow state → Wide Up breakouts<br>
-        🐘 Elephant Bar detection enabled<br><br>
         Best run after 4:00pm EST on trading days
     </div>""", unsafe_allow_html=True)
 
