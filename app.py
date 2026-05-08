@@ -52,11 +52,13 @@ st.markdown("""
     font-size: 0.7rem;
     letter-spacing: 0.4em;
     text-transform: uppercase;
-    padding: 0.4rem 1rem;
-    border-left: 3px solid #0099ff;
+    padding: 0.6rem 1rem;
+    border: 1px solid #0099ff;
     margin-bottom: 1.5rem;
     color: #0099ff;
     background: rgba(0,153,255,0.05);
+    text-align: center;
+    border-radius: 4px;
 }
 
 .score-10 { background: #FFD700; color: #000; padding: 2px 10px; border-radius: 3px; font-weight: 700; font-family: 'Space Mono', monospace; font-size: 0.9rem; }
@@ -101,7 +103,7 @@ st.markdown("""
 .no-results {
     text-align: center;
     padding: 3rem;
-    color: #2a4060;
+    color: #6a90b0;
     font-family: 'Space Mono', monospace;
     font-size: 0.78rem;
     letter-spacing: 0.15em;
@@ -120,7 +122,7 @@ st.markdown("""
 <div class="ace-header">
     <div class="ace-logo">♠ ACE</div>
     <div class="ace-subtitle">Accumulation Computation Engine</div>
-    <div class="ace-tagline">TSX · Toronto Stock Exchange · Velez Breakout · Elephant Bar Detection 🐘</div>
+    <div class="ace-tagline">TSX · Toronto Stock Exchange · Consolidation Breakout · Elephant Bar Detection 🐘</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -284,7 +286,7 @@ def display_results(results):
                 </div>
             </div>""", unsafe_allow_html=True)
     else:
-        st.markdown('<div style="color:#2a3a2a;font-family:Space Mono,monospace;font-size:0.75rem;text-align:center;padding:1.5rem;border:1px dashed #1a2a1a;border-radius:8px;margin-bottom:1rem">🐘 No Elephant Bars today — waiting for the A+ setup</div>', unsafe_allow_html=True)
+        st.markdown('<div style="color:#4a7a4a;font-family:Space Mono,monospace;font-size:0.75rem;text-align:center;padding:1.5rem;border:1px dashed #2a4a2a;border-radius:8px;margin-bottom:1rem">🐘 No Elephant Bars today — waiting for the A+ setup</div>', unsafe_allow_html=True)
 
     # Regular Breakouts
     if regular:
@@ -322,7 +324,7 @@ def display_results(results):
         </div>""", unsafe_allow_html=True)
 
 # ── Main Layout ────────────────────────────────────────────────────────────────
-st.markdown('<div class="section-header">◈ TSX · Toronto Stock Exchange · Velez Breakout · 640+ Stocks Scanned Daily</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">◈ TSX · Toronto Stock Exchange · Consolidation Breakout · 640+ Stocks Scanned Daily</div>', unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
