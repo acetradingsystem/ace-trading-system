@@ -44,18 +44,18 @@ st.markdown("""
     0% { background-position: 0% }
     100% { background-position: 200% }
 }
-.ace-subtitle { color: #8ab0d0; font-size: 0.75rem; letter-spacing: 0.4em; text-transform: uppercase; margin-top: 0.3rem; }
+.ace-subtitle { color: #a0c8e8; font-size: 0.75rem; letter-spacing: 0.4em; text-transform: uppercase; margin-top: 0.3rem; }
 .ace-tagline  { color: #2a4060; font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; margin-top: 0.2rem; }
 
 .section-header {
     font-family: 'Space Mono', monospace;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     letter-spacing: 0.4em;
     text-transform: uppercase;
     padding: 0.6rem 1rem;
     border: 1px solid #0099ff;
     margin-bottom: 1.5rem;
-    color: #0099ff;
+    color: #00ccff;
     background: rgba(0,153,255,0.05);
     text-align: center;
     border-radius: 4px;
@@ -85,8 +85,8 @@ st.markdown("""
 .regular-card:hover { border-color: #0099ff33; }
 
 .coin-name { font-size: 1.2rem; font-weight: 700; color: #fff; font-family: 'Space Mono', monospace; }
-.metric-label { font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase; color: #2a4060; margin-bottom: 2px; }
-.metric-value { font-size: 0.88rem; font-family: 'Space Mono', monospace; color: #8ab0d0; }
+.metric-label { font-size: 0.58rem; letter-spacing: 0.2em; text-transform: uppercase; color: #6a90b0; margin-bottom: 2px; }
+.metric-value { font-size: 0.88rem; font-family: 'Space Mono', monospace; color: #b0d0f0; }
 .metric-green { color: #00d4aa; }
 .metric-gold  { color: #FFD700; }
 
@@ -98,12 +98,12 @@ st.markdown("""
     text-align: center;
 }
 .stat-number { font-size: 2rem; font-weight: 700; font-family: 'Space Mono', monospace; }
-.stat-label  { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: #4a6080; margin-top: 0.2rem; }
+.stat-label  { font-size: 0.6rem; letter-spacing: 0.3em; text-transform: uppercase; color: #8ab0d0; margin-top: 0.2rem; }
 
 .no-results {
     text-align: center;
     padding: 3rem;
-    color: #6a90b0;
+    color: #8ab0d0;
     font-family: 'Space Mono', monospace;
     font-size: 0.78rem;
     letter-spacing: 0.15em;
@@ -111,9 +111,9 @@ st.markdown("""
     border-radius: 8px;
     line-height: 2;
 }
-.timestamp { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: #2a4060; text-align: center; margin-bottom: 1.2rem; }
-.elephant-label { color: #FFD700; font-family: 'Space Mono', monospace; font-size: 0.7rem; letter-spacing: 0.3em; margin-bottom: 1rem; }
-.regular-label  { color: #0099ff; font-family: 'Space Mono', monospace; font-size: 0.7rem; letter-spacing: 0.3em; margin-bottom: 1rem; margin-top: 1.5rem; }
+.timestamp { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: #6a90b0; text-align: center; margin-bottom: 1.2rem; }
+.elephant-label { color: #FFD700; font-size: 0.78rem; font-family: 'Space Mono', monospace; font-size: 0.7rem; letter-spacing: 0.3em; margin-bottom: 1rem; }
+.regular-label  { color: #00ccff; font-family: 'Space Mono', monospace; font-size: 0.7rem; letter-spacing: 0.3em; margin-bottom: 1rem; margin-top: 1.5rem; }
 </style>
 """, unsafe_allow_html=True)
 
