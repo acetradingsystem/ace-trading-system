@@ -330,7 +330,7 @@ st.markdown('<div class="section-header">◈ TSX · Toronto Stock Exchange · Co
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    run = st.button("▶  RUN TSX SCAN", type="primary", use_container_width=True)
+    run = st.button("▶  RUN D1 TSX SCAN", type="primary", use_container_width=True)
 
 if run:
     with st.spinner(""):
