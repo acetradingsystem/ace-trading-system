@@ -323,7 +323,7 @@ def display_results(results):
         </div>""", unsafe_allow_html=True)
 
 # ── Main Layout ────────────────────────────────────────────────────────────────
-st.markdown('<div class="section-header">RANDOM CONSOLIDATION BREAKOUT SCANNER- TSX DAILY Timeframe</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">RANDOM CONSOLIDATION BREAKOUT SCANNER - TSX DAILY Timeframe</div>', unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
